@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form</title>
+    <link rel="stylesheet" href="inputAbhi.css">
+    <!-- for icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+<div class="container">
+    <form>
+      <div class="row">
+        <h4>Registration Form</h4>
+        <div class="input-group input-group-icon">
+          <input type="text" placeholder="Your Full Name"/>
+          <div class="input-icon"><i class="fa fa-user"></i></div>
+        </div>
+        <div class="input-group input-group-icon">
+          <input type="text" placeholder="Your Father Name"/>
+          <div class="input-icon"><i class="fa fa-user"></i></div>
+        </div>
+        <div class="input-group input-group-icon">
+          <input type="email" placeholder="Email Adress"/>
+          <div class="input-icon"><i class="fa fa-envelope"></i></div>
+        </div>
+        <div class="input-group input-group-icon">
+          <input type="password" placeholder="Password"/>
+          <div class="input-icon"><i class="fa fa-key"></i></div>
+        </div>
+        <div class="input-group input-group-icon">
+            <input type="tel" placeholder="Your Mobile Number"/>
+            <div class="input-icon"><i class="fa fa-phone"></i></div>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-half">
+          <h4>Date of Birth</h4>
+          <div class="input-group">
+            <div class="col-third">
+              <input type="text" placeholder="DD"/>
+            </div>
+            <div class="col-third">
+              <input type="text" placeholder="MM"/>
+            </div>
+            <div class="col-third">
+              <input type="text" placeholder="YYYY"/>
+            </div>
+          </div>
+        </div>
+        <div class="col-half">
+          <h4>Gender</h4>
+          <div class="input-group">
+            <input id="gender-male" type="radio" name="gender" value="male"/>
+            <label for="gender-male">Male</label>
+            <input id="gender-female" type="radio" name="gender" value="female"/>
+            <label for="gender-female">Female</label>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <h4>Covid Status</h4>
+        <div class="input-group">
+          <input id="payment-method-card" type="radio" name="payment-method" value="card" checked="true"/>
+          <label for="payment-method-card"><span><i class="fa fa-plus"></i>Positie</span></label>
+          <input id="payment-method-paypal" type="radio" name="payment-method" value="paypal"/>
+          <label for="payment-method-paypal"> <span><i class="fa fa-minus"></i>Negative</span></label>
+        </div>
+        <h4>Personal Details</h4>
+        <div class="col-half">
+          <div class="input-group input-group-icon">
+            <input type="file" placeholder="Upload Photo"/>
+            <div class="input-icon"><i class="fa fa-pic">photo</i></div>
+          </div>
+        </div>
+        <div class="col-half">
+          <div class="input-group">
+            <select>
+              <option value="highschool">HighSchool</option>
+              <option value="Inter">Inter</option>
+              <option value="Graduation">Graduation</option>
+              <option value="Post-Graduation">Post-Graduation</option>
+              <option value="Master degree">Master degree</option>
+              
+            </select>
+            <select name="nationality" id="nationality">
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="China">China</option>
+                <option value="Russia">Russia</option>
+                <option value="America">America</option>
+           </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-half">
+          <div class="input-group">
+              <input style="color:red" type="button" value="Reset"/>
+            </div>
+        </div>
+        <div class="col-half">
+          <div class="input-group">
+              <input style="color:red" type="button" value="Submit"/>
+            </div>
+        </div>
+            <h4>Created By Abhishek Patel</h4>
+      </div>
+    </form>
+  </div>
+    
+</body>
+</html>
